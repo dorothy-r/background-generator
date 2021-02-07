@@ -1,5 +1,5 @@
 body {
-  font: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   text-transform: uppercase;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-  color: white;
+  color: #f5fef1;
   box-shadow: 0 0.5em 0.5em -0.4em #040f25;
   transform: translateY(-0.25em);
 }
