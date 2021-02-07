@@ -1,0 +1,46 @@
+body {
+  font: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+  font: 600 3.5em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+button {
+  background: none;
+  color: rgba(0, 0, 0, 0.5);
+  border: 2px solid;
+  padding: 1em 2em;
+  margin-top: 2em;
+  font-size: 1em;
+  transition: all 0.25s;
+}
+
+button:hover {
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #040f25;
+  transform: translateY(-0.25em);
+}
+
+button:focus {
+  outline: none;
+}
